@@ -178,7 +178,7 @@ In the `index.html`, we will get rid of our "Add Comment" link and create a form
 ```html
 <!-- ... -->
 <footer>posted by Chuck Wooden</footer>
-<form id="newComment" onSubmit="addComment()">
+<form id="newComment" onSubmit="addComment(event)">
   Add comment: <input type="text" id="commentText"><br>
   Your name: <input type="text" id="commenterName"><br>
   <input type="submit">
